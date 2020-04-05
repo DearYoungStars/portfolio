@@ -1,0 +1,307 @@
+header nav ul li a {
+	padding: 0px 15px !important;
+	transition: 0.5s;
+	opacity: 0.8;
+}
+html , body {
+	scroll-behavior: smooth;
+}
+header nav ul li a:hover {
+	opacity: 1;
+}
+.backimg {
+	background: linear-gradient(#000000ad , #000000a3),url(back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	-ms-background: linear-gradient(#000000ad , #000000a3),url(back.jpg) !important;
+	-webkit-background: linear-gradient(#000000ad , #000000a3),url(back.jpg) !important;
+}
+body {
+	font-family: 'Exo', sans-serif;
+}
+.poppins {
+	font-family: 'Poppins', sans-serif;
+}
+.textgradient {
+	font-size: 4rem;
+   background: -webkit-linear-gradient(#00C4CC, #7D2BE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.colorgradient {
+   background: -webkit-linear-gradient(#00C4CC, #7D2BE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#typewriter {
+	font-size: 1.5rem;
+}
+.contactbtn {
+	background: -webkit-linear-gradient(#00C4CC, #7D2BE8);
+	color: white !important;
+	padding: 15px 30px;
+	transition: 0.5s;
+	box-shadow: 1px 13px 30px #00000094;
+	border-radius: 5px;
+	text-decoration: none !important;
+}
+.onscrollheader {
+	position: fixed;
+	top: 0px;
+	width: 90%;
+	left: 0px;
+	right: 0px;
+	z-index: 2;
+	margin: auto;
+	background: white;
+	box-shadow: 0px 0px 30px #666;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	animation-name: updown;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes updown {
+	0% {
+		top: -300px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+header {
+	padding: 15px !important;
+}
+.contactbtn:hover {
+	box-shadow: none;
+}
+fieldset.scheduler-border {
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {font-size: 1.2em !important;font-weight: bold !important;width: auto;padding: 0 10px;border-bottom: none;text-align: center !important;text-align: -moz-center !important;text-align: -webkit-center !important;text-align:;margin: auto;margin-bottom: auto;margin-bottom: 22px;}
+.icon {
+	background: -webkit-linear-gradient(#00C4CC, #7D2BE8);
+	color: white !important;
+	padding: 20px !important;
+	border-radius: 100px;
+}
+.slider {
+	position: absolute;
+	width: 100% !important;
+	opacity: 0;
+	transition: 0.4s;
+	height: 100% !important;
+	
+}
+.all_slider {
+	position: relative;
+	height: 100% !important;
+	width: 100% !important;
+}
+.active {
+	opacity: 1;
+}
+#contact {
+	background: linear-gradient(#000000b8 , #000000b8) , url(tele.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.dblc {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	padding-bottom: 245px;
+}
+header {
+	transition: 0.5s;
+}
+@media screen and (min-width: 100px) and (max-width: 424px) {
+	.responsiveh1 {
+		font-size: 3rem;
+	}
+}
+@media screen and (min-width: 100px) and (max-width: 328px) {
+	.responsiveh1 {
+		font-size: 2rem;
+	}
+}
+@media screen and (min-width: 100px) and (max-width: 767px) {
+	.mobile ul li  {
+		padding: 10px 0px;
+	}
+	.mobile {
+	background: #222;
+	padding: 20px;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+	header nav ul li a {
+		color: #fff !important;
+	}
+	.onscrollheader ul li a  {
+		color: #322 !important;
+	}
+}
+.mobile {
+	border-radius: 10px;
+}
+.bot {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 100px !important;
+	padding: 20px 24px !important;
+	z-index: 11111111111;
+}
+.top {
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 100px !important;
+	padding: 12px 23px !important;
+	font-size: 24px;
+}
+.maincont {
+	position: fixed;
+	bottom: -800px;
+	bottom: -800px;
+	text-align: center;
+	width: 400px;
+	right: -52px !important;
+	transition: 0.5s;
+	padding: 15px;
+	overflow-y: scroll;
+	z-index: 3;
+	transform: scale(0.8);
+	z-index: 999999999999999999999999999;
+}
+header {
+	padding: 0px 22px !important;
+}
+.face {
+	color: #2b2b2b !important;
+	font-size: 24px;
+	padding: 0px 11px !important;
+}
+.counterbg {
+	background: linear-gradient(black , black),url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+header nav ul li a {
+	font-family: 'Poppins', sans-serif;
+}
+.linebg {
+	background: -webkit-linear-gradient(135deg,#00C4CC, #7D2BE8);
+	background-size: 200%;
+	transition: 0.5s;
+	box-shadow: -1px 20px 30px 20px #ddd;
+}
+.linebg:hover {
+	background-position: right;
+	box-shadow: none;
+}
+.inpubtn {
+	background: #007bff;
+	color: white !important;
+	font-weight: bold;
+}
+.counterbg {
+	background: -webkit-linear-gradient(135deg,#00c4ccb0, #7d2be8cc),url(bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.box {
+	transition: 0.5s;
+}
+.box:hover {
+	transform: scale(1.1);
+}
+.cusline {
+	animation-name: round;
+	animation-iteration-count: infinite;
+	animation-duration: 0.1s;
+}
+@keyframes round {
+	0% {
+	background: -webkit-linear-gradient(0deg,#00C4CC, #7D2BE8);
+
+	}
+	100% {
+	background: -webkit-linear-gradient(360deg,#00C4CC, #7D2BE8);
+
+	}
+}
+.lst li {
+	padding: 7px;
+	color: #666;
+}
+.buybtn {
+	background: -webkit-linear-gradient(360deg,#00C4CC, #7D2BE8);
+	color: white !important;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 100px;
+	background-size: 150%;
+	transition: 0.5s;
+	box-shadow: 3px 20px 30px 0px #8f8f8fa1;
+}
+.buybtn:hover {
+	background-position: right;
+	box-shadow: none;
+}
+.mainprice {
+	box-shadow: 0px 0px 30px #858585ba;
+	padding: 0;
+	border-radius: 5px;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.maincont {
+		width: 100%;
+		left: 0px;
+		right: 0px;
+		transform: scale(1);
+		margin: 0px;
+	}
+}
+.fulldv {
+	background: #000000c2;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	transition: 0.5s;
+	overflow-y: scroll;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1 !important;
+}
+.activedv {
+	opacity: 1;
+	visibility: visible;
+}
+.abform {
+	position: absolute;
+	top: 7rem;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	background: white !important;
+	width: 90%;
+	border-radius: 5px;
+}
+html , body {
+	overflow-x: hidden;
+}
